@@ -3,7 +3,7 @@
 <node TEXT="Ethical Hacking" FOLDED="false" ID="ID_452131666" CREATED="1610381621610" MODIFIED="1625664842782" BACKGROUND_COLOR="#cccccc" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="false" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -151,6 +151,24 @@
 <node TEXT="Intermediate" ID="ID_1954631791" CREATED="1625584783277" MODIFIED="1625584788199"/>
 <node TEXT="Error Handling" ID="ID_859558720" CREATED="1625584791901" MODIFIED="1625584799510"/>
 <node TEXT="File I/O" ID="ID_1188598630" CREATED="1625584800877" MODIFIED="1625584805310"/>
+</node>
+<node TEXT="Web Penetration Testing" POSITION="left" ID="ID_1776024530" CREATED="1626514291143" MODIFIED="1626514585406">
+<node TEXT="Cross-site scripting (XSS)" ID="ID_845481979" CREATED="1626514783216" MODIFIED="1626514829741"/>
+<node TEXT="SQL Injection" ID="ID_1329564673" CREATED="1626514832908" MODIFIED="1626514838582"/>
+<node TEXT="Information Gathering and Enumeration tools" ID="ID_697620772" CREATED="1626693108334" MODIFIED="1626693453552">
+<node TEXT="dirb" ID="ID_669711063" CREATED="1626693123051" MODIFIED="1626693133000"/>
+</node>
+<node TEXT="security testing" ID="ID_17142226" CREATED="1626964903059" MODIFIED="1626964913565">
+<node TEXT="Burpsuite" ID="ID_750508115" CREATED="1626964915259" MODIFIED="1626964925082"/>
+</node>
+<node TEXT="Exploitation" ID="ID_629688634" CREATED="1626965159959" MODIFIED="1626965179683">
+<node TEXT="ShellShock" ID="ID_1974512251" CREATED="1626965181568" MODIFIED="1626965183139">
+<node TEXT="Burp" ID="ID_880358482" CREATED="1626967719421" MODIFIED="1626967726641"/>
+<node TEXT="msf" ID="ID_1636195294" CREATED="1626967734781" MODIFIED="1626967853917">
+<icon BUILTIN="Meta"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
