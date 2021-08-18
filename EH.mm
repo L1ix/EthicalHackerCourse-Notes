@@ -3,7 +3,7 @@
 <node TEXT="Ethical Hacking" FOLDED="false" ID="ID_452131666" CREATED="1610381621610" MODIFIED="1625664842782" BACKGROUND_COLOR="#cccccc" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="false" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -145,7 +145,10 @@
 </node>
 </node>
 </node>
-<node TEXT="Man In The Middle" POSITION="left" ID="ID_171890951" CREATED="1625584748357" MODIFIED="1625664836454"/>
+<node TEXT="Man In The Middle" POSITION="left" ID="ID_171890951" CREATED="1625584748357" MODIFIED="1625664836454">
+<node TEXT="Bettercap" ID="ID_892095134" CREATED="1629103326372" MODIFIED="1629103345716"/>
+<node TEXT="Ettercap" ID="ID_196775233" CREATED="1629103380812" MODIFIED="1629103386968"/>
+</node>
 <node TEXT="Python" POSITION="right" ID="ID_12777700" CREATED="1625584765917" MODIFIED="1625664833728">
 <node TEXT="Basics" ID="ID_292253153" CREATED="1625584776006" MODIFIED="1625584782063"/>
 <node TEXT="Intermediate" ID="ID_1954631791" CREATED="1625584783277" MODIFIED="1625584788199"/>
@@ -186,10 +189,31 @@
       #hydra 172.19.18.71 http-form-post &quot;/dvwa/login.php:username=^USER^&amp;password=^PASS^&amp;Login=submit:Login failed&quot; -L usernames.txt -P password.txt&nbsp;&nbsp;&nbsp;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Wireless Access Point Cracking" POSITION="right" ID="ID_764565012" CREATED="1629221490867" MODIFIED="1629221672292">
+<node TEXT="Hashed password" ID="ID_1827733982" CREATED="1629221674524" MODIFIED="1629221690409">
+<node TEXT="Aircrack" ID="ID_1019302963" CREATED="1629221693561" MODIFIED="1629221697149"/>
+<node TEXT="Hashcat" ID="ID_642756277" CREATED="1629221706922" MODIFIED="1629221719988"/>
+</node>
+<node TEXT="#airodump-ng" ID="ID_1526794316" CREATED="1629223193651" MODIFIED="1629223202500"/>
+<node ID="ID_1731865728" CREATED="1629223558712" MODIFIED="1629223611723"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      #aireplay-ng<i>&nbsp;(deautenticating)</i>
+    </p>
+  </body>
 </html>
+
 </richcontent>
-</node>
-</node>
 </node>
 </node>
 </node>
