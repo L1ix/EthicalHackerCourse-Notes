@@ -212,9 +212,18 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="Android Hacking" POSITION="left" ID="ID_357421492" CREATED="1629290681540" MODIFIED="1629290688149">
+<node TEXT="msfvenom" ID="ID_1639436799" CREATED="1629554741731" MODIFIED="1629554768420">
+<icon BUILTIN="Meta"/>
+</node>
+<node TEXT="Evil Droid" ID="ID_908380939" CREATED="1629555943328" MODIFIED="1629555948634"/>
+</node>
+<node TEXT="Networking" POSITION="right" ID="ID_385976005" CREATED="1629560067063" MODIFIED="1629560636207">
+<node TEXT="ngrok" ID="ID_352919503" CREATED="1629560130401" MODIFIED="1629560146797" LINK="https://ngrok.com/"/>
+<node TEXT="router port forwarding" ID="ID_1077193426" CREATED="1629560645562" MODIFIED="1629560655389"/>
 </node>
 </node>
 </map>
